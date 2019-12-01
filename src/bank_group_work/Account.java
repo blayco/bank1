@@ -13,15 +13,12 @@ public class Account {
         this.accountType = accountType;
         this.balance = balance;
     }
-        public Account(String accountNumber, AccountType accountType) {
+
+    public Account(String accountNumber, AccountType accountType) {
         this.accountNumber = accountNumber;
         this.accountType = accountType;
-        this.balance=BigDecimal.ZERO;
+        this.balance = BigDecimal.ZERO;
     }
-
-
-
-
 
 
     public String getAccountNumber() {
@@ -41,11 +38,11 @@ public class Account {
             return true;
    }
 
-    public boolean withdraw(BigDecimal amount){
+   /* public boolean withdraw(BigDecimal amount){
         if (this.balance.compareTo(amount)>=0){
             this.balance.subtract(amount);
             return true;
         }
        return false;
-    }
+    }*/
 }

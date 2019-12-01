@@ -33,16 +33,16 @@ public class Account {
         return balance;
     }
 
-   public boolean deposit(BigDecimal amount){
-            this.balance=this.balance.add(amount);
-            return true;
-   }
+    public boolean deposit(BigDecimal amount) {
+        this.balance = this.balance.add(amount);
+        return true;
+    }
 
-   /* public boolean withdraw(BigDecimal amount){
-        if (this.balance.compareTo(amount)>=0){
-            this.balance.subtract(amount);
+    public boolean withdraw(BigDecimal amount) {
+        if (this.balance.compareTo(amount) >= 0) {
+            this.balance = this.balance.subtract(amount);
             return true;
-        }
-       return false;
-    }*/
+                    }
+        return false;
+    }
 }

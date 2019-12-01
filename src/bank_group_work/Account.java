@@ -5,7 +5,8 @@ import java.math.BigDecimal;
 public class Account {
     private String accountNumber;
     private AccountType accountType;
-    private BigDecimal balance;
+    private BigDecimal balance; //na bigdecimal nie da się normalnie dodawaći odejmować,
+    //słuza do tego specjalne metody
 
 
     public Account(String accountNumber, AccountType accountType, BigDecimal balance) {

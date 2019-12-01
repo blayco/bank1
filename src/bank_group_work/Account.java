@@ -37,7 +37,7 @@ public class Account {
     }
 
    public boolean deposit(BigDecimal amount){
-            this.balance=balance.add(amount);
+            this.balance=this.balance.add(amount);
             return true;
    }
 

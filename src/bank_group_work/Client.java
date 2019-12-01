@@ -5,6 +5,12 @@ public class Client {
 
     private String customerNumber;
 
+    private String pesel;
+
+    public String getPesel() {
+        return pesel;
+    }
+
     public Client(String name, String surname, String customerNumber) {
         this.name = name;
         this.surname = surname;

@@ -1,9 +1,5 @@
 package Treads.FileReadSave;
 
-import Treads.Start.MyRunnable;
-
-
-import static Treads.Start.ThreadColor.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ import static Treads.Start.ThreadColor.ANSI_GREEN;
 public class Odczyt implements Runnable {
 
     public void run() {
-        //System.out.println(ANSI_GREEN+"Hello from MyRunnable");
+
         File plik = new File("watek_zapis.txt");
 
         Scanner in = null;
